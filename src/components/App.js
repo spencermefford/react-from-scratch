@@ -1,4 +1,5 @@
 import React from 'react';
+import { hot } from 'react-hot-loader'
 import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './Home';
@@ -19,4 +20,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default hot(module)(App);

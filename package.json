@@ -21,8 +21,7 @@
     "react-dom": "^16.2.0",
     "react-prop-types": "^0.4.0",
     "react-router-dom": "^4.2.2",
-    "semantic-ui-react": "^0.78.3",
-    "webpack-cli": "^2.0.9"
+    "semantic-ui-react": "^0.78.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -32,8 +31,10 @@
     "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^0.28.10",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+    "react-hot-loader": "^4.0.0",
     "style-loader": "^0.20.2",
     "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.1.0"
   }
 }
