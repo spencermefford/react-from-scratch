@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: ['react-hot-loader/patch', './src/index.js'],
   output: {
-    filename: 'bundle.[hash].js',
+    filename: '[name].[hash].js',
     publicPath: '/'
   },
   devtool: 'inline-source-map',
